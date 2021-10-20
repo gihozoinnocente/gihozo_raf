@@ -7,15 +7,15 @@
 // }
 // sum(5, 78);
 
-const user = {
-    name: "Innocente",
-    city: "Kigali",
-    gender: "Female",
-    age: 24,
+// const user = {
+//     name: "Innocente",
+//     city: "Kigali",
+//     gender: "Female",
+//     age: 24,
 
-}
-console.log(user);
-console.log(`The username is ${user.name} and she is a ${user.gender} with ${user.age}`);
+// }
+// console.log(user);
+// console.log(`The username is ${user.name} and she is a ${user.gender} with ${user.age}`);
 
 // const name = "Innocente";
 // const age = 24;
@@ -312,11 +312,20 @@ console.log(`The username is ${user.name} and she is a ${user.gender} with ${use
 // // console.log(reversed);
 // console.log(reversedName);
 
-const name = "ABCDEFG";
-const result = name.split("").reverse().join("");
+// const name = "ABCDEFG";
+// const result = name.split("").reverse().join("");
 
-console.log(result)
+// console.log(result)
 
+
+// const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
+// const agesMap = ages.map(num => num * 20);
+// console.log(agesMap);
+
+
+const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
+const agesFilter = ages.filter(num => num > 20);
+console.log(agesFilter);
 
 
 
