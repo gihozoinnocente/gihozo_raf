@@ -319,13 +319,75 @@
 
 
 // const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
-// const agesMap = ages.map(num => num * 20);
+// const agesMap = ages.map(num => num * 20);n
 // console.log(agesMap);
 
+// 
+// const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
+// const agesFilter = ages.filter(num => num > 20);
+// console.log(agesFilter);
 
-const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
-const agesFilter = ages.filter(num => num > 20);
-console.log(agesFilter);
+// const companies = [
+//     { name: "Company One", category: "Finance", start: 1981, end: 2003 },
+//     { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
+//     { name: "Company Three", category: "Auto", start: 1999, end: 2007 },
+//     { name: "Company Four", category: "Retail", start: 1989, end: 2010 },
+//     { name: "Company Five", category: "Tech", start: 2009, end: 2014 },
+//     { name: "Company Six", category: "Finance", start: 1987, end: 2010 },
+//     { name: "Company Seven", category: "Auto", start: 1986, end: 1996 },
+//     { name: "Company Eight", category: "Tech", start: 2011, end: 2016 },
+//     { name: "Company Nine", category: "Retail", start: 1981, end: 1989 },
+// ];
+
+// console.log(companies.length);
+// console.log(companies[4]);
+
+// const company4 = companies[4];
+// console.log(company4.name)
+
+// console.log(`${company4.name} started in ${company4.start} and ended in ${company4.end}`)
+// const companyName = companies.filter(item => item.name == "Finance");
+// console.log(companyName);
+
+// const techCompany = companies.filter(company => company.tech)
+// const myArr = [
+//     { name: "AAA", age: 20 },
+//     { name: "BBB", age: 21 },
+//     { name: "AAA", age: 22 },
+//     { name: "BBB", age: 23 },
+//     { name: "CCC", age: 24 },
+//     { name: "DDD", age: 25 }
+// ];
+
+// // const namesArr = myArr.filter(item => item.name);
+// const namesArr = myArr.filter(item => item.name === "AAA")
+
+// console.log(namesArr);
+
+// const companies = [
+//     { name: "Company One", category: "Finance", start: 1981, end: 2003 },
+//     { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
+//     { name: "Company Three", category: "Auto", start: 1999, end: 2007 },
+//     { name: "Company Four", category: "Retail", start: 1989, end: 2010 },
+//     { name: "Company Five", category: "Technology", start: 2009, end: 2014 },
+//     { name: "Company Six", category: "Finance", start: 1987, end: 2010 },
+//     { name: "Company Seven", category: "Auto", start: 1986, end: 1996 },
+//     { name: "Company Eight", category: "Technology", start: 2011, end: 2016 },
+//     { name: "Company Nine", category: "Retail", start: 1981, end: 1989 },
+// ];
+
+// const techCompanies = companies.filter(item => item.category === "Finance");
+
+// console.log(techCompanies);
+
+const displayDate = () => {
+    let currentTime = new Date();
+
+    let time = `${currentTime.getFullYear()}-${currentTime.getMonth()}-${currentTime.getDate()}`;
+
+    document.getElementById("showDate").innerHTML = `${currentTime}`;
+}
+
 
 
 
