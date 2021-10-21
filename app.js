@@ -229,13 +229,6 @@
 
 // console.log(newArr);
 
-// const arr = [
-//     { name: "AAA", age: 20 },
-//     { name: "BB", age: 22 },
-//     { name: "CCC", age: 25 }
-// ];
-
-// const newArr = arr.map(item => item.name);
 
 // console.log(newArr)
 
@@ -380,18 +373,56 @@
 
 // console.log(techCompanies);
 
-const displayDate = () => {
-    let currentTime = new Date();
+// const displayDate = () => {
+//     let currentTime = new Date();
 
-    let time = `${currentTime.getFullYear()}-${currentTime.getMonth()}-${currentTime.getDate()}`;
+//     let time = `${currentTime.getFullYear()}-${currentTime.getMonth()}-${currentTime.getDate()}`;
 
-    document.getElementById("showDate").innerHTML = `${currentTime}`;
+//     document.getElementById("showDate").innerHTML = `${currentTime}`;
+// }
+
+
+// function switchInStatement(val) {
+//     let answer = "";
+//     switch (val) {
+//         case 1:
+//             answer = "alpha";
+//             break;
+//         case 2:
+//             answer = "beta";
+//             break;
+//         case 3:
+//             answer = "gamma";
+//             break;
+//         case 4:
+//             answer = "delta";
+//             break;
+//     }
+
+//     return answer;
+// }
+
+// console.log(switchInStatement(1));
+
+const BMI = () => {
+    const height = document.getElementById('h').value;
+    const weight = document.getElementById('w').value;
+    const bmiValue = weight / ((height / 100) * (height / 100));
+    console.log(bmiValue);
+    // document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}`;
+
+
+
+    if (bmiValue < 21) {
+        document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are under weight.`;
+    } else if (bmiValue < 24) {
+        document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are healthy.`;
+    }
+    else {
+        document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are over weight.`;
+
+    }
 }
-
-
-
-
-
 
 
 
