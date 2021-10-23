@@ -404,25 +404,82 @@
 
 // console.log(switchInStatement(1));
 
-const BMI = () => {
-    const height = document.getElementById('h').value;
-    const weight = document.getElementById('w').value;
-    const bmiValue = weight / ((height / 100) * (height / 100));
-    console.log(bmiValue);
-    // document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}`;
+// const BMI = () => {
+//     const height = document.getElementById('h').value;
+//     const weight = document.getElementById('w').value;
+//     const bmiValue = weight / ((height / 100) * (height / 100));
+//     console.log(bmiValue);
+//     // document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}`;
 
 
 
-    if (bmiValue < 21) {
-        document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are under weight.`;
-    } else if (bmiValue < 24) {
-        document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are healthy.`;
-    }
-    else {
-        document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are over weight.`;
+//     if (bmiValue < 21) {
+//         document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are under weight.`;
+//     } else if (bmiValue < 24) {
+//         document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are healthy.`;
+//     }
+//     else {
+//         document.getElementById('result').innerHTML = `Your BMI is ${bmiValue}. You are over weight.`;
 
-    }
-}
+//     }
+// }
+// const personOne = {
+//     name: "Kyle",
+//     age: 24,
+//     address: {
+//         city: "Kigali",
+//         district: "Gasabo"
+//     }
+// };
+
+// const { name, age, address } = personOne;
+
+// console.log(name);
+
+// const country = {
+//     name: "Rwanda",
+//     population: 13000000,
+//     continent: "Africa",
+//     latitude: 29.3,
+//     longitude: -1.9,
+//     isDeveloped: false
+// };
+
+// const { name, population, continent, latitude, longitude, isDeveloped } = country;
+// console.log(continent);
+// console.log(isDeveloped);
+
+
+// const title = document.querySelector('.bmiCalc'); // for class
+// const title = document.querySelector('#bmiCalc'); // for id
+// const title = document.getElementById('calTitle');
+// const title = document.getElementByClassName('calTitle');
+
+// console.log(title);
+
+// const arr = [1, 2, 3, 4];
+
+// arr.forEach(item => console.log(item));
+
+// map()
+// filter()
+// forEach()
 
 
 
+// const companies = [
+//     { name: "Company One", category: "Finance", start: 1981, end: 2003 },
+//     { name: "Company Two", category: "Retail", start: 1992, end: 2008 },
+//     { name: "Company Three", category: "Auto", start: 1999, end: 2007 },
+//     { name: "Company Four", category: "Retail", start: 1989, end: 2010 },
+//     { name: "Company Five", category: "Tech", start: 2009, end: 2014 },
+//     { name: "Company Six", category: "Finance", start: 1987, end: 2010 },
+//     { name: "Company Seven", category: "Auto", start: 1986, end: 1996 },
+//     { name: "Company Eight", category: "Tech", start: 2011, end: 2016 },
+//     { name: "Company Nine", category: "Retail", start: 1981, end: 1989 },
+// ];
+
+// companies.forEach(item => console.log(companies));
+
+const myArr = ["Anna", "Kaliza", "Kalisa", "Jeanne", "Gladys"];
+myArr.forEach(item => console.log(item));
