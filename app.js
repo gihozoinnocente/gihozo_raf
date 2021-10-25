@@ -268,7 +268,7 @@
 // const itemNames = items.map(item => item.name);
 
 // const itemPrices = items.map(item => item.price);
-// console.log(itemPrices);
+// console.log(itemNames);
 
 
 // const arr = [1, 2, 3, 4, 5, 6];
@@ -312,7 +312,7 @@
 
 
 // const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
-// const agesMap = ages.map(num => num * 20);n
+// const agesMap = ages.map(num => num * 20);
 // console.log(agesMap);
 
 // 
@@ -342,7 +342,9 @@
 // const companyName = companies.filter(item => item.name == "Finance");
 // console.log(companyName);
 
-// const techCompany = companies.filter(company => company.tech)
+// const techCompany = companies.filter(company => company.tech);
+// console.log(techCompany);
+
 // const myArr = [
 //     { name: "AAA", age: 20 },
 //     { name: "BBB", age: 21 },
@@ -481,5 +483,223 @@
 
 // companies.forEach(item => console.log(companies));
 
-const myArr = ["Anna", "Kaliza", "Kalisa", "Jeanne", "Gladys"];
-myArr.forEach(item => console.log(item));
+// const myArr = ["Anna", "Kaliza", "Kalisa", "Jeanne", "Gladys"];
+// myArr.forEach(item => console.log(item));
+
+
+// const greaterValue = (a, b) => {
+//     a > b ? console.log("a is greater than b.") : console.log("a is less or equal b.")
+// };
+
+// greaterValue(2, 3)
+
+
+// const a = 3, b = -2;
+
+// // and operator
+// console.log(a > 0 && b > 0); // expected output: false
+
+
+// const a = 3, b = -2;
+
+// // or operator
+// console.log(a > 0 || b > 0); // expected output: true
+
+
+// -1 => invalid grade
+// 2 => invalid grade
+
+// console.log("Hello world!");
+
+// function myGrades(grade) {
+//     if (grade > 1) {
+//         console.log("You have INVALID grade");
+//     }
+//     else if (grade < 0) {
+//         console.log("You have INVALID grade");
+//     }
+//     else if (grade >= 0.9) {
+//         console.log("Your grade is A");
+//     }
+//     else if (grade >= 0.8) {
+//         console.log("Your grade is B");
+//     }
+//     else if (grade >= 0.7) {
+//         console.log("Your grade is C")
+//     }
+//     else if (grade >= 0.6) {
+//         console.log("Your grade is D");
+//     }
+//     else if (grade >= 0.5) {
+//         console.log("Your grade is F");
+//     }
+//     else {
+//         console.log("You have failed")
+//     }
+// }
+// myGrades(2);
+
+
+// function isPositive(num) {
+//     return (num > 0) ? console.log("It is positive")
+//         : (num < 0) ? console.log("It is negative")
+//             : console.log("It is Zero")
+// }
+// isPositive(0);
+
+
+// const myFxn = () => {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(`Value of i is ${i}`);
+//     }
+// };
+
+// myFxn()
+
+// const arr = [10, 20, 30, 40];
+// const sum = (arr) => {
+//     let result = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         result = result + arr[i];
+//     }
+//     console.log(result);
+
+// }
+
+// sum(arr);
+
+
+
+// const myArray = ["Anna", "Betty", "Uwacu"];
+// for (let i = 0; i < myArray.length; i++) {
+//     console.log(myArray[i]);
+// }
+
+
+
+// for (let i=1; i<=5; i++) {
+//     console.log(i);
+// };
+
+
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// };
+// when you are dealing with arra
+
+// let result = 0;
+// for (let i = 0; i < 5; i++) {
+//     result = result + i;
+//     console.log(result)
+// };
+
+// for (let j = 5; j > 0; j--) {
+//     console.log(j);
+// }
+
+// let sum = 0;
+// for (let i = 0; i < 5; i++) {
+//     sum += i;
+//     console.log(sum);
+// }
+
+
+// let product = 1;
+// for (let i = 1; i <= 5; i++) {
+//     product = product * i;
+//     console.log(product);
+// }
+
+// let product = 1;
+// for (let i = 1; i <= 5; i++) {
+//     product *= i;
+//     console.log(product);
+// }
+
+
+
+// let division = 1;
+// for (let i = 1; i <= 5; i++) {
+//     division /= i;
+//     console.log(division);
+// }
+
+
+// const num = prompt("Please enter a number");
+// function factorize(num) {
+//     let factorial = 1;
+//     for (let i = 1; i <= num; i++) {
+//         factorial *= i;
+//         console.log(factorial);
+//     }
+// }
+
+// factorize(num);
+
+
+
+// const arr = [10, 20, 40, 50];
+// const sum = () => {
+//     let result = 0;
+//     for (let i = 0; i < arr.length; i++) {
+
+//         result = result + arr[i];
+//         console.log(result);
+//     }
+// }
+
+// sum();
+
+// const str = " Subscribe now ";
+// const result = str.trim();
+// console.log(result);
+
+// const str = "javascript is the best";
+// console.log(str.toUpperCase());
+
+
+// const str = "JAVASCRIPT IS THE BEST";
+// console.log(str.toLowerCase());
+
+// const str = "JAVASCRIPTISTHEBEST";
+// console.log(str.slice(3));
+// console.log(str.slice(3, 11));
+
+// const str = "JAVASCRIPT IS THE BEST";
+// console.log(str.split(""));
+// console.log(str.split(" "));
+
+// const str = "JAVASCRIPT";
+// console.log(str.repeat(4))
+
+
+const str1 = "JAVA";
+const str2 = "script";
+console.log(str1.concat(str2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
